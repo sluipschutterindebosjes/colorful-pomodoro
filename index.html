@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodoro App</title>
+  <!-- TailwindCSS via CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body class="bg-blue-200 min-h-screen flex items-center justify-center">
+  <div class="bg-white p-8 rounded shadow-lg">
+    <h1 class="text-3xl text-center mb-4">Pomodoro Timer</h1>
+    <div id="timer" class="text-6xl text-center mb-4">25:00</div>
+    <div class="flex justify-center space-x-4">
+      <button id="start" class="bg-green-500 text-white px-4 py-2 rounded shadow">Start</button>
+      <button id="pause" class="bg-yellow-500 text-white px-4 py-2 rounded shadow">Pause</button>
+      <button id="reset" class="bg-red-500 text-white px-4 py-2 rounded shadow">Reset</button>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
